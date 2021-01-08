@@ -1,17 +1,43 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
 body {
-  font-family: Heebo, sans-serif;
+    font-family: Heebo, sans-serif;
     font-weight: 400;
-    background-color:bisque;
+    background-color: #BG074;
+    font-size: 15px;
 }
-h1{
-  font-family: Arimo, sans-serif;
+
+h1 {
+    font-family: Arimo, sans-serif;
     font-weight: 700;
 }
-h2{
-  font-family: Arimo, sans-serif;
+
+h2 {
+    font-family: Arimo, sans-serif;
     font-weight: 700;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.title{
+    
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+@media(max-width: 700px){
+    grid-template-columns: 1fr;
+    
 }
