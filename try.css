@@ -1,13 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
-
 body {
     font-family: Heebo, sans-serif;
     font-weight: 400;
-    background-color: #BG074;
     font-size: 15px;
+    margin: 0;
+}
+.around{
+    background:#fff4d4;
+}
+.reka{
+    background: url(img/image.jpg) center;
+    background-size: cover;
+    background-size:cover;
+    color:white;
+  padding: 40px;
+    margin: auto;
+}        
+.reka .container{
+    max-width: 800px;
+    font-size: 20px;
 }
 
+
+.logo{
+    text-align: center;
+}
+.name{
+    font-family: Rubik&display;
+    font-weight: 700;
+}
 h1 {
     font-family: Arimo, sans-serif;
     font-weight: 700;
@@ -16,7 +38,9 @@ a{
     font-size: 20px;
     color: black;
 }
-
+h1,h2{
+    font-size: 75px;
+}
 h2 {
     font-family: Arimo, sans-serif;
     font-weight: 700;
@@ -27,7 +51,7 @@ h2 {
     margin: auto;
 }
 .title{
-    
+    color:black;
     text-align: center;
 }
 img {
