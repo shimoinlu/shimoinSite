@@ -5,9 +5,9 @@ body {
     font-weight: 400;
     font-size: 15px;
     margin: 0;
+    background: url(img/dynamic-style.png) center;
 }
 .around{
-    background:#fff4d4;
 }
 .reka{
     background: url(img/image.jpg) center;
@@ -67,5 +67,24 @@ img {
 }
 @media(max-width: 700px){
     grid-template-columns: 1fr;
+    
+}
+.reka_2{
+    background: url(img/imageBath.jpg) center;
+    background-size: cover;
+    background-size:cover;
+    color:black;
+  padding: 40px;
+    margin: auto;
+    
+}
+h4{
+    font-size: 30px;
+}
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
     
 }
